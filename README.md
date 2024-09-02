@@ -39,6 +39,8 @@ These experiments were designed to systematically explore the impact of various 
 
 The experiments yielded insightful results:
 
+![results](https://github.com/user-attachments/assets/d3fb5b3f-2d8c-446b-b9da-1f0768f5b3ba)
+
 1. **BERT 3e** demonstrated the best overall performance, achieving the highest scores across accuracy, precision, recall, and F1-score. This model showed a strong ability to correctly classify tweets into emotional categories while maintaining a good balance between precision and recall.
 
 2. **BERT 10e** and **BERT Weighted** showed good precision but slightly lower recall compared to BERT 3e. This suggests that while these models were accurate in their predictions, they might have underrepresented some emotional categories.
@@ -50,6 +52,9 @@ These results underscore the effectiveness of BERT in capturing the nuanced emot
 ## Project Organization
 ```
 emoevent-bert-analysis/
+├── docs/
+│ ├── Presentation.pdf
+│
 ├── notebooks/
 │ ├── bert_3e_experiment.ipynb
 │ ├── bert_10e_experiment.ipynb
